@@ -1,0 +1,238 @@
+flutter_plugins:
+  state_management:
+    - name: provider
+      version: ^6.0.0
+      description: A wrapper around InheritedWidget to make them easier to use and more reusable.
+    - name: riverpod
+      version: ^1.0.0
+      description: A complete rewrite of Provider to make improvements that would be otherwise impossible.
+    - name: bloc
+      version: ^8.0.0
+      description: A predictable state management library that helps implement the BLoC (Business Logic Component) design pattern.
+
+  networking:
+    - name: dio
+      version: ^4.0.0
+      description: A powerful HTTP client for Dart, which supports Interceptors, Global configuration, FormData, File downloading, etc.
+    - name: http
+      version: ^0.13.0
+      description: A composable, Future-based library for making HTTP requests.
+    - name: graphql_flutter
+      version: ^5.0.0
+      description: A GraphQL client for Flutter, bringing all the features from a modern GraphQL client to Flutter.
+
+  UI_components:
+    - name: flutter_svg
+      version: ^1.0.0
+      description: A Flutter package for rendering SVG images.
+    - name: cached_network_image
+      version: ^3.0.0
+      description: A Flutter library to show images from the internet and keep them in the cache directory.
+    - name: flutter_slidable
+      version: ^1.0.0
+      description: A Flutter implementation of slidable list item with directional slide actions.
+
+  form_validation:
+    - name: flutter_form_builder
+      version: ^7.0.0
+      description: An advanced package to build and manage forms in Flutter.
+    - name: formz
+      version: ^0.4.0
+      description: A unified form input validation library for Dart.
+
+  database:
+    - name: sqflite
+      version: ^2.0.0
+      description: SQLite plugin for Flutter. Supports iOS, Android, and MacOS.
+    - name: hive
+      version: ^2.0.0
+      description: A lightweight and blazing fast key-value database written in pure Dart.
+    - name: floor
+      version: ^1.0.0
+      description: The typesafe, reactive, and lightweight SQLite abstraction for your Flutter applications.
+
+  authentication:
+    - name: firebase_auth
+      version: ^3.0.0
+      description: Firebase Authentication for Flutter.
+    - name: google_sign_in
+      version: ^5.0.0
+      description: A Flutter plugin for Google Sign-In.
+
+  localization:
+    - name: flutter_localizations
+      version: sdk: flutter
+      description: Official Flutter localization package.
+    - name: intl
+      version: ^0.17.0
+      description: A package for internationalization and localization, including message formatting and date/time formatting.
+
+  animations:
+    - name: animations
+      version: ^2.0.0
+      description: A collection of pre-canned animations for Flutter.
+    - name: simple_animations
+      version: ^4.0.0
+      description: A powerful package to create custom animations in Flutter.
+
+  testing:
+    - name: flutter_test
+      version: sdk: flutter
+      description: Official Flutter testing framework.
+    - name: mockito
+      version: ^5.0.0
+      description: A mock library for Dart inspired by Mockito.
+
+  device_features:
+    - name: device_info_plus
+      version: ^3.0.0
+      description: A Flutter plugin to get information about the device.
+    - name: connectivity_plus
+      version: ^2.0.0
+      description: Flutter plugin for discovering the state of the network (WiFi & mobile/cellular) connectivity on Android and iOS.
+    - name: geolocator
+      version: ^8.0.0
+      description: A Flutter geolocation plugin which provides easy access to the platform-specific location services.
+
+  notifications:
+    - name: flutter_local_notifications
+      version: ^9.0.0
+      description: A cross-platform plugin for displaying local notifications.
+    - name: firebase_messaging
+      version: ^11.0.0
+      description: Firebase Cloud Messaging for Flutter.
+
+  file_handling:
+    - name: file_picker
+      version: ^4.0.0
+      description: A package that allows you to use a native file explorer to pick single or multiple absolute file paths.
+    - name: path_provider
+      version: ^2.0.0
+      description: A Flutter plugin for finding commonly used locations on the filesystem.
+
+  image_handling:
+    - name: image_picker
+      version: ^0.8.0
+      description: A Flutter plugin for picking images from the image library, and taking new pictures with the camera.
+    - name: image_cropper
+      version: ^1.0.0
+      description: A Flutter plugin for cropping images.
+
+  state_persistence:
+    - name: shared_preferences
+      version: ^2.0.0
+      description: Flutter plugin for reading and writing simple key-value pairs.
+    - name: hydrated_bloc
+      version: ^8.0.0
+      description: An extension to the bloc state management library which automatically persists and restores bloc states.
+
+  routing:
+    - name: auto_route
+      version: ^4.0.0
+      description: A routing package that simplifies navigation and deep linking in Flutter apps.
+    - name: go_router
+      version: ^4.0.0
+      description: A declarative router for Flutter based on Navigation 2.0.
+
+  charts:
+    - name: fl_chart
+      version: ^0.40.0
+      description: A powerful Flutter chart library, currently supporting Line Chart, Bar Chart, and Pie Chart.
+    - name: charts_flutter
+      version: ^0.12.0
+      description: A material design data visualization library written natively in Dart.
+
+  payments:
+    - name: stripe_payment
+      version: ^1.0.0
+      description: A Flutter plugin to integrate Stripe payments.
+    - name: in_app_purchase
+      version: ^1.0.0
+      description: A Flutter plugin for in-app purchases.
+
+  video_handling:
+    - name: video_player
+      version: ^2.0.0
+      description: A Flutter plugin for displaying inline video with other Flutter widgets.
+    - name: chewie
+      version: ^1.0.0
+      description: A video player for Flutter with a material design interface.
+
+  audio_handling:
+    - name: just_audio
+      version: ^0.9.0
+      description: A feature-rich audio player for Flutter.
+    - name: audioplayers
+      version: ^0.20.0
+      description: A Flutter plugin to play multiple audio files simultaneously.
+
+  webview:
+    - name: webview_flutter
+      version: ^2.0.0
+      description: A Flutter plugin that provides a WebView widget.
+
+  maps:
+    - name: google_maps_flutter
+      version: ^2.0.0
+      description: A Flutter plugin for integrating Google Maps in Flutter applications.
+    - name: flutter_map
+      version: ^0.13.0
+      description: A versatile mapping package for Flutter.
+
+  state_management:
+    - name: mobx
+      version: ^2.0.0
+      description: A state-management library that makes it simple to connect the reactive data of your application with the UI.
+    - name: redux
+      version: ^5.0.0
+      description: A predictable state container for Dart and Flutter apps.
+
+  logging:
+    - name: logger
+      version: ^1.0.0
+      description: A small, easy-to-use, and extensible logger which prints beautiful logs.
+
+  performance:
+    - name: flutter_stetho
+      version: ^0.5.0
+      description: A Flutter plugin that adds a Stetho-based network inspector to your app.
+    - name: flutter_performance
+      version: ^1.0.0
+      description: A plugin to measure and monitor the performance of your Flutter app.
+
+  security:
+    - name: flutter_secure_storage
+      version: ^4.0.0
+      description: A Flutter plugin to store data in secure storage.
+    - name: biometric_storage
+      version: ^3.0.0
+      description: A Flutter plugin for storing data securely using biometrics.
+
+  internationalization:
+    - name: easy_localization
+      version: ^3.0.0
+      description: A localization library for Flutter apps, supporting multiple languages and locales.
+    - name: flutter_i18n
+      version: ^0.20.0
+      description: A complete and easy-to-use internationalization library for Flutter.
+
+  background_tasks:
+    - name: workmanager
+      version: ^2.0.0
+      description: A Flutter plugin for running background tasks.
+    - name: android_alarm_manager
+      version: ^2.0.0
+      description: A Flutter plugin for accessing the Android AlarmManager service.
+
+  bluetooth:
+    - name: flutter_blue
+      version: ^0.8.0
+      description: A Flutter plugin for Bluetooth Low Energy (BLE).
+    - name: blue_thermal_printer
+      version: ^1.0.0
+      description: A Flutter plugin for connecting to thermal printers via Bluetooth.
+
+  qr_code:
+    - name: qr_flutter
+      version: ^4.0.0
+      description: A Flutter plugin for generating QR codes.
