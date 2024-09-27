@@ -1,3 +1,6 @@
 [submodule "samples"]
 	path = samples
 	url = https://github.com/flutter/samples
+[submodule "flutter"]
+	path = flutter
+	url = https://github.com/flutter/flutter
